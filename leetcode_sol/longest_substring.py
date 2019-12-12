@@ -1,3 +1,5 @@
+#O(n) solution and Space O(1)
+
 class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         data = {}
