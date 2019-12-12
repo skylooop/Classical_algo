@@ -12,3 +12,13 @@ class Solution:
             data[c]=i
         return longest
                 
+#also beautiful solution
+def result(s):
+    data = []
+    longest = 0
+    for i in s:
+        if i in data:
+            data = data[data.index(i)+1:]
+        data.append(i)
+        longest = max(longest, len(data))
+    return longest
