@@ -8,4 +8,5 @@ class Solution:
             else:
                 longest = max(longest,i-start+1)
             data[c]=i
+        return longest
                 
