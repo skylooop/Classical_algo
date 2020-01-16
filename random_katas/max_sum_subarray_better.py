@@ -7,5 +7,5 @@ def maxSubArray(self, nums: List[int]) -> int:
             end_here +=num
         else:
             end_here = num
-     maxi = max(maxi,end_here)
+        maxi = max(maxi,end_here)
      return maxi
