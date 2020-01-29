@@ -9,3 +9,15 @@ def search(k):
     subset.pop()
 n,k = 3,0
 search(k)
+
+
+#Method 2
+b = 0
+n = 3
+while b<(1<<n):
+  subset = []
+  for i in range(n):
+    if b&(1<<i):
+      subset.append(i)
+  print(subset)
+  b+=1
