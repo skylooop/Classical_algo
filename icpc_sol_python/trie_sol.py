@@ -1,3 +1,7 @@
+'''
+Given array of words(prefix), find all words, including for example 'do'. Brute force O(nk) solution k - len of 'do'. Trie structure - O(n)
+'''
+
 class Node:
     def __init__(self, children, isWord):
         self.children = children
